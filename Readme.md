@@ -73,12 +73,15 @@ es: Luego verás este registro en el registro de la consola desde el [log](./oth
 
 `D:/unleashed-firmware/build/latest/.extapps/my_first_app.fap` will need to drag and drop to the qFlipper.
 
-![my_first_app on FlipperZero device drag and drop to qFlipper on Windows](https://github.com/miguelgargallo/flipperzero/assets/5947268/5206495f-dafa-4268-9018-a97bb5f078b4)
+![my_first_app on FlipperZero device drag and drop to qFlipper on Windows](https://github.com/miguelgargallo/flipperzero/assets/5947268/edeef69d-c199-44b8-95bb-6ec34da50cf8)
 
 Then we go to the FlipperZero device, Applications `Examples` folder and we will see the app.
 es: Luego vamos al dispositivo FlipperZero, a la carpeta de `Ejemplos` de Aplicaciones y veremos la aplicación.
 
 `? my_first_app`
+
+![initial screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/6489b090-f3dc-4e11-8e71-3f15df953508)
+
 
 We click on it and we will see the app running.
 es: Hacemos clic en ella y veremos la aplicación en funcionamiento.
@@ -88,16 +91,18 @@ On  tap, any button it interacts, with this you can create a 🐉 dragon game or
 es: En tocar, cualquier botón interactúa, con esto puedes crear un juego de 🐉 dragones o una aplicación que use estas características ✨!
 
 ### 🔄 Go back button screen
-![Go back button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/9ac0fff8-072e-4cb6-aa41-653739e16b57)
+![🔄 Go back button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/6a770138-e112-4eba-b6e4-42a982d5b88b)
 ### ⏺️ Go center button screen
-![Go center button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/dd6ac995-29ca-4596-a1ed-229048ab44b9)
+![⏺️ Go center button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/16898974-d275-47e3-9e75-3125b525e02d)
 ### ⬇️ Go down button screen
-![Go down button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/443f78ea-dd58-412d-8f02-f53f080b397e)
+![⬇️ Go down button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/4d091dc5-1b42-4245-9db6-94e7a31d11d1)
 ### ⬅️ Go left button screen
-![Go left button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/ab6fc1b7-3701-4c01-ba3a-15251da73885)
+![⬅️ Go left button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/7145b41d-be90-472b-a835-daa7bff2cfcd)
 ### ⬆️ Go up button screen
-![Go up button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/d49f97b5-09ed-4ae7-a9e1-58a9a8a8fb90)
-➡️
+![⬆️ Go up button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/611605f4-b26f-4715-875e-f5d93e2e0af4)
+### ➡️ Go right button screen
+![➡️ Go right button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/20ab20f1-7a43-479e-b852-9a8f3636f557)
+
 ## License
 
 [PYLAR AI CREATIVE ML LICENSE](License.md)
