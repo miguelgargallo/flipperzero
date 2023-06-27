@@ -1,12 +1,12 @@
 # My Flipper Apps
 
 - [My Flipper Apps](#my-flipper-apps)
-  - [How to successfully deploy your new FlipperZero app, on my new repo of miguelgargallo/flipperzero guide.](#how-to-successfully-deploy-your-new-flipperzero-app-on-my-new-repo-of-miguelgargalloflipperzero-guide)
+  - [How to successfully deploy](#how-to-successfully-deploy)
   - [my\_first\_app](#my_first_app)
     - [Installation](#installation)
   - [License](#license)
 
-## How to successfully deploy your new FlipperZero app, on my new repo of miguelgargallo/flipperzero guide.
+## How to successfully deploy
 
 es: Mis Apps de Flipper.
 
