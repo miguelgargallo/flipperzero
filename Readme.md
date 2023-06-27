@@ -14,16 +14,19 @@
   - [License](#license)
 
 ## How to successfully deploy
+
 es: Mis Apps de Flipper.
 
 ![Miguel Gargallo How to deploy Flipper Zero Apps](https://repository-images.githubusercontent.com/659406324/9c80b562-0837-4187-87c7-74663e6b0d1b)
 
 Here goes all my Flipper Apps.
+
 es: Aquí están todas mis Apps de Flipper.
 
 ## My first app
 
 A simple app that shows a text and a button to quit the app.
+
 es: Una aplicación sencilla que muestra un texto y un botón para salir de la aplicación.
 
 ### Installation
@@ -50,12 +53,15 @@ es: Ejecuta `./fbt`.
 ```
 
 Then you will see this log on console log from the [log](./other/01.log)
+
 es: Luego verás este registro en el registro de la consola desde el [log](./other/01.log).
 
 We put the code inside the folder applications_user/my_first_app.
+
 es: Ponemos el código dentro de la carpeta applications_user/mi_primera_app.
 
 Inside my_first_app we add 2 files:
+
 es: Dentro de mi_primera_app agregamos 2 archivos:
 
 - [my_first_app.c](./my_first_app/my_first_app.c)
@@ -70,6 +76,7 @@ es: Ahora podemos compilar la aplicación:
 ```
 
 Then you will see this log on console log from the [log](./other/02.log)
+
 es: Luego verás este registro en el registro de la consola desde el [log](./other/02.log).
 
 `D:/unleashed-firmware/build/latest/.extapps/my_first_app.fap` will need to drag and drop to the qFlipper.
@@ -77,6 +84,7 @@ es: Luego verás este registro en el registro de la consola desde el [log](./oth
 ![my_first_app on FlipperZero device drag and drop to qFlipper on Windows](https://github.com/miguelgargallo/flipperzero/assets/5947268/edeef69d-c199-44b8-95bb-6ec34da50cf8)
 
 Then we go to the FlipperZero device, Applications `Examples` folder and we will see the app.
+
 es: Luego vamos al dispositivo FlipperZero, a la carpeta de `Ejemplos` de Aplicaciones y veremos la aplicación.
 
 `? my_first_app`
@@ -85,10 +93,12 @@ es: Luego vamos al dispositivo FlipperZero, a la carpeta de `Ejemplos` de Aplica
 
 
 We click on it and we will see the app running.
+
 es: Hacemos clic en ella y veremos la aplicación en funcionamiento.
 
 ## Features
 On  tap, any button it interacts, with this you can create a 🐉 dragon game or an app using this features ✨!
+
 es: En tocar, cualquier botón interactúa, con esto puedes crear un juego de 🐉 dragones o una aplicación que use estas características ✨!
 
 ### 🔄 Go back button screen
