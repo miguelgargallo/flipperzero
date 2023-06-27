@@ -35,26 +35,29 @@ static void handleInput(InputEvent* input_event, void* context) {
     FuriMessageQueue* event_queue = context;
     furi_assert(event_queue != NULL);
 
+    // Check if the button was long-pressed or not
+    bool longPress = (input_event->type == InputTypeLong) ? true : false;
+
     // Change the message depending on which key was pressed
     switch(input_event->key) {
     case InputKeyUp:
-        message = "You pressed UP!";
+        message = longPress ? "You long-pressed ^^^" : "You pressed ^";
         break;
     case InputKeyDown:
-        message = "You pressed DOWN!";
+        message = longPress ? "You long-pressed vvv" : "You pressed v";
         break;
     case InputKeyLeft:
-        message = "You pressed LEFT!";
+        message = longPress ? "You long-pressed <<<" : "You pressed <";
         break;
     case InputKeyRight:
-        message = "You pressed RIGHT!";
+        message = longPress ? "You long-pressed >>>" : "You pressed >";
         break;
     case InputKeyOk:
-        message = "You pressed CENTER!";
+        message = longPress ? "You long-pressed ooo" : "You pressed o";
         break;
     case InputKeyBack:
-        message = "You pressed BACK!";
-        exitMessage = "Long press to exit."; // Add this line
+        message = longPress ? "You long-pressed ---" : "You pressed -";
+        exitMessage = longPress ? "Exiting the App." : "Long press to exit.";
         break;
     default:
         message = "Press any button...";

@@ -2,7 +2,18 @@
 
 es: FlipperZero | Guía de definitiva para compilar apps en FlipperZero
 
+## In this new version:
+
+es: En esta nueva versión:
+
+`beta: 3.0.0`
+
+Users can now longpress and shortpress with an indicator on the screen.
+
+es: Los usuarios ahora pueden mantener presionado y presionar brevemente con un indicador en la pantalla.
+
 - [FlipperZero | Ultimate compile guide](#flipperzero--ultimate-compile-guide)
+  - [In this new version:](#in-this-new-version)
     - [Installation](#installation)
     - [Create the app](#create-the-app)
     - [Code](#code)
