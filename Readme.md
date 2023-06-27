@@ -1,4 +1,11 @@
 # My Flipper Apps
+
+- [My Flipper Apps](#my-flipper-apps)
+  - [How to successfully deploy your new FlipperZero app, on my new repo of miguelgargallo/flipperzero guide.](#how-to-successfully-deploy-your-new-flipperzero-app-on-my-new-repo-of-miguelgargalloflipperzero-guide)
+  - [my\_first\_app](#my_first_app)
+    - [Installation](#installation)
+  - [License](#license)
+
 ## How to successfully deploy your new FlipperZero app, on my new repo of miguelgargallo/flipperzero guide.
 
 es: Mis Apps de Flipper.
@@ -85,3 +92,7 @@ es: Hacemos clic en ella y veremos la aplicación en funcionamiento.
 ![screenshotflipperzeroappmiguelgargalloright](https://github.com/miguelgargallo/flipperzero/assets/5947268/91b1f4dc-f718-4483-9ee7-8104a7ae74da)
 ![screenshotflipperzeroappmiguelgargalloup](https://github.com/miguelgargallo/flipperzero/assets/5947268/30c5cec4-e6c3-45ab-8051-2299a4b02d0c)
 
+## License
+
+[PYLAR AI CREATIVE ML LICENSE](License.md)
+[OFFICIAL REFERENCE](https://huggingface.co/spaces/superdatas/LICENSE)
