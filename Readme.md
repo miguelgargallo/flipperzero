@@ -86,11 +86,16 @@ We click on it and we will see the app running.
 
 es: Hacemos clic en ella y veremos la aplicación en funcionamiento.
 
-![flipperzeroscreenshot](https://github.com/miguelgargallo/flipperzero/assets/5947268/9ac0fff8-072e-4cb6-aa41-653739e16b57)
-![flipperzeroscreenshot](https://github.com/miguelgargallo/flipperzero/assets/5947268/dd6ac995-29ca-4596-a1ed-229048ab44b9)
-![flipperzeroscreenshot](https://github.com/miguelgargallo/flipperzero/assets/5947268/443f78ea-dd58-412d-8f02-f53f080b397e)
-![flipperzeroscreenshot](https://github.com/miguelgargallo/flipperzero/assets/5947268/ab6fc1b7-3701-4c01-ba3a-15251da73885)
-![flipperzeroscreenshot](https://github.com/miguelgargallo/flipperzero/assets/5947268/d49f97b5-09ed-4ae7-a9e1-58a9a8a8fb90)
+### Go back button screen
+![Go back button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/9ac0fff8-072e-4cb6-aa41-653739e16b57)
+### Go center button screen
+![Go center button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/dd6ac995-29ca-4596-a1ed-229048ab44b9)
+### Go down button screen
+![Go down button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/443f78ea-dd58-412d-8f02-f53f080b397e)
+### Go left button screen
+![Go left button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/ab6fc1b7-3701-4c01-ba3a-15251da73885)
+### Go up button screen
+![Go up button screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/d49f97b5-09ed-4ae7-a9e1-58a9a8a8fb90)
 
 ## License
 
