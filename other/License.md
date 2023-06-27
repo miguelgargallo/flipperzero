@@ -1,8 +1,8 @@
-MBA UNIVERSITY BY https://mba.university, EDUCATIVE PYLAR AI CREATIVE ML LICENSE
+MBA UNIVERSITY BY https://mba.university, PYLAR AI CREATIVE ML LICENSE
 
 [OFFICIAL REFERENCE](./License.md)
 
-Version 1.1, June 2023, Miguel Gargallo
+Version 0.0.5, 27th June 2023, Miguel Gargallo
 
 The following conditions govern the use of the Pylar AI software and its associated documentation files (collectively referred to as the "Software"):
 
