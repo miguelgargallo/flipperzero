@@ -1,9 +1,14 @@
-# My Flipper Apps
+# FlipperZero | Ultimate compile guide
 
-- [My Flipper Apps](#my-flipper-apps)
-  - [How to successfully deploy](#how-to-successfully-deploy)
-  - [My first app](#my-first-app)
+es: FlipperZero | Guía de definitiva para compilar apps en FlipperZero
+
+- [FlipperZero | Ultimate compile guide](#flipperzero--ultimate-compile-guide)
     - [Installation](#installation)
+    - [Create the app](#create-the-app)
+    - [Code](#code)
+    - [Compile](#compile)
+    - [Run](#run)
+    - [Clean and compile](#clean-and-compile)
   - [Features](#features)
     - [🔄 Go back button screen](#-go-back-button-screen)
     - [⏺️ Go center button screen](#️-go-center-button-screen)
@@ -13,21 +18,7 @@
     - [➡️ Go right button screen](#️-go-right-button-screen)
   - [License](#license)
 
-## How to successfully deploy
-
-es: Mis Apps de Flipper.
-
 ![Miguel Gargallo How to deploy Flipper Zero Apps](https://repository-images.githubusercontent.com/659406324/9c80b562-0837-4187-87c7-74663e6b0d1b)
-
-Here goes all my Flipper Apps.
-
-es: Aquí están todas mis Apps de Flipper.
-
-## My first app
-
-A simple app that shows a text and a button to quit the app.
-
-es: Una aplicación sencilla que muestra un texto y un botón para salir de la aplicación.
 
 ### Installation
 
@@ -47,10 +38,11 @@ Execute `./fbt`
 
 es: Ejecuta `./fbt`.
 
-
 ```powershell
 ./fbt
 ```
+
+### Create the app
 
 Then you will see this log on console log from the [log](./other/01.log)
 
@@ -60,12 +52,16 @@ We put the code inside the folder applications_user/my_first_app.
 
 es: Ponemos el código dentro de la carpeta applications_user/mi_primera_app.
 
+### Code
+
 Inside my_first_app we add 2 files:
 
 es: Dentro de mi_primera_app agregamos 2 archivos:
 
 - [my_first_app.c](./my_first_app/my_first_app.c)
 - [application.fam](./my_first_app/application.fam)
+
+### Compile
 
 Now we can compile the app:
 
@@ -83,6 +79,8 @@ es: Luego verás este registro en el registro de la consola desde el [log](./oth
 
 ![my_first_app on FlipperZero device drag and drop to qFlipper on Windows](https://github.com/miguelgargallo/flipperzero/assets/5947268/edeef69d-c199-44b8-95bb-6ec34da50cf8)
 
+### Run
+
 Then we go to the FlipperZero device, Applications `Examples` folder and we will see the app.
 
 es: Luego vamos al dispositivo FlipperZero, a la carpeta de `Ejemplos` de Aplicaciones y veremos la aplicación.
@@ -91,10 +89,27 @@ es: Luego vamos al dispositivo FlipperZero, a la carpeta de `Ejemplos` de Aplica
 
 ![initial screen](https://github.com/miguelgargallo/flipperzero/assets/5947268/6489b090-f3dc-4e11-8e71-3f15df953508)
 
-
 We click on it and we will see the app running.
 
 es: Hacemos clic en ella y veremos la aplicación en funcionamiento.
+
+### Clean and compile
+
+If you want to clean to compile later, you can do it with:
+
+es: Si quieres limpiar para compilar más tarde, puedes hacerlo con:
+
+```powershell
+./fbt -c fap_my_first_app
+```
+
+And then you perform that action:
+
+es: Y luego realizas esa acción:
+
+```powershell
+./fbt fap_dist
+```
 
 ## Features
 On  tap, any button it interacts, with this you can create a 🐉 dragon game or an app using this features ✨!
