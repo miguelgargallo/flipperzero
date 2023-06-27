@@ -2,6 +2,8 @@
 
 es: FlipperZero | Guía de definitiva para compilar apps en FlipperZero
 
+![Miguel Gargallo How to deploy Flipper Zero Apps](https://repository-images.githubusercontent.com/659406324/9c80b562-0837-4187-87c7-74663e6b0d1b)
+
 ## In this new version:
 
 es: En esta nueva versión:
@@ -28,8 +30,6 @@ es: Los usuarios ahora pueden mantener presionado y presionar brevemente con un 
     - [⬆️ Go up button screen](#️-go-up-button-screen)
     - [➡️ Go right button screen](#️-go-right-button-screen)
   - [License](#license)
-
-![Miguel Gargallo How to deploy Flipper Zero Apps](https://repository-images.githubusercontent.com/659406324/9c80b562-0837-4187-87c7-74663e6b0d1b)
 
 ### Installation
 
