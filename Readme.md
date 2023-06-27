@@ -2,7 +2,7 @@
 
 - [My Flipper Apps](#my-flipper-apps)
   - [How to successfully deploy](#how-to-successfully-deploy)
-  - [my\_first\_app](#my_first_app)
+  - [My first app](#my-first-app)
     - [Installation](#installation)
   - [Features](#features)
     - [🔄 Go back button screen](#-go-back-button-screen)
@@ -10,6 +10,7 @@
     - [⬇️ Go down button screen](#️-go-down-button-screen)
     - [⬅️ Go left button screen](#️-go-left-button-screen)
     - [⬆️ Go up button screen](#️-go-up-button-screen)
+    - [➡️ Go right button screen](#️-go-right-button-screen)
   - [License](#license)
 
 ## How to successfully deploy
@@ -20,7 +21,7 @@ es: Mis Apps de Flipper.
 Here goes all my Flipper Apps.
 es: Aquí están todas mis Apps de Flipper.
 
-## my_first_app
+## My first app
 
 A simple app that shows a text and a button to quit the app.
 es: Una aplicación sencilla que muestra un texto y un botón para salir de la aplicación.
