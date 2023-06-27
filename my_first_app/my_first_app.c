@@ -1,8 +1,10 @@
-/************************|
-| * myFlipperApps      * |
-| * by MiguelGargallo  * |
-| * 001 - My First App * |
-************************/
+/**************************|
+| o  myFlipperApps       o |
+| o  by MiguelGargallo   o |
+| o  001 - My First App  o |
+| o  Version: 3.0.0b     o |
+| o  Date: 06-28-2023    o |
+**************************/
 
 #include <stdio.h>
 #include <furi.h>
