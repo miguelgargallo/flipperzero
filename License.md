@@ -1,6 +1,6 @@
-MBA UNIVERSITY BY https://mba.university, PYLAR AI CREATIVE ML LICENSE
+PYLAR AI CREATIVE ML LICENSE
 
-[OFFICIAL REFERENCE](./License.md)
+[OFFICIAL REFERENCE](https://huggingface.co/spaces/superdatas/LICENSE)
 
 Version 0.0.5, 27th June 2023, Miguel Gargallo
 
