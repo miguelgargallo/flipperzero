@@ -1,9 +1,11 @@
 /**************************|
+ o                       o |
 | o  myFlipperApps       o |
 | o  by MiguelGargallo   o |
 | o  001 - My First App  o |
 | o  Version: 3.0.0b     o |
 | o  Date: 06-28-2023    o |
+| o                      o |
 **************************/
 
 #include <stdio.h>
