@@ -1,4 +1,5 @@
 # My Flipper Apps
+## How to successfully deploy your new FlipperZero app, on my new repo of miguelgargallo/flipperzero guide.
 
 es: Mis Apps de Flipper.
 
