@@ -9,11 +9,11 @@
 #include <gui/gui.h>
 
 // Create a message to display based on user input
-static char *message = "Press any button...";
+static char* message = "Press any button...";
+static char* exitMessage = "";
 
 // Function to clear canvas and draw GUI elements
-static void drawGui(Canvas *canvas, void *context)
-{
+static void drawGui(Canvas* canvas, void* context) {
     UNUSED(context);
     canvas_clear(canvas);
 
@@ -24,20 +24,19 @@ static void drawGui(Canvas *canvas, void *context)
     // Draw the secondary label
     canvas_set_font(canvas, FontSecondary);
     canvas_draw_str(canvas, 15, 40, message);
+    canvas_draw_str(canvas, 15, 55, exitMessage); // Exit message
 
     // Draw a line
     canvas_draw_line(canvas, 2, 23, 126, 23);
 }
 
 // Function to handle user input
-static void handleInput(InputEvent *input_event, void *context)
-{
-    FuriMessageQueue *event_queue = context;
+static void handleInput(InputEvent* input_event, void* context) {
+    FuriMessageQueue* event_queue = context;
     furi_assert(event_queue != NULL);
 
     // Change the message depending on which key was pressed
-    switch (input_event->key)
-    {
+    switch(input_event->key) {
     case InputKeyUp:
         message = "You pressed UP!";
         break;
@@ -53,6 +52,10 @@ static void handleInput(InputEvent *input_event, void *context)
     case InputKeyOk:
         message = "You pressed CENTER!";
         break;
+    case InputKeyBack:
+        message = "You pressed BACK!";
+        exitMessage = "Long press to exit."; // Add this line
+        break;
     default:
         message = "Press any button...";
     }
@@ -61,18 +64,16 @@ static void handleInput(InputEvent *input_event, void *context)
 }
 
 // Main function of the app
-int32_t my_first_app_main(void *parameter)
-{
+int32_t my_first_app_main(void* parameter) {
     UNUSED(parameter);
 
     // Create an event queue and a viewport for GUI
     InputEvent input_event;
-    FuriMessageQueue *event_queue = furi_message_queue_alloc(8, sizeof(InputEvent));
-    ViewPort *viewport = view_port_alloc();
+    FuriMessageQueue* event_queue = furi_message_queue_alloc(8, sizeof(InputEvent));
+    ViewPort* viewport = view_port_alloc();
 
     // Error checking
-    if (!event_queue || !viewport)
-    {
+    if(!event_queue || !viewport) {
         printf("Error: Failed to allocate event_queue or viewport!\n");
         return -1;
     }
@@ -82,19 +83,17 @@ int32_t my_first_app_main(void *parameter)
     view_port_input_callback_set(viewport, handleInput, event_queue);
 
     // Create a GUI and associate it with the viewport
-    Gui *gui = furi_record_open(RECORD_GUI);
+    Gui* gui = furi_record_open(RECORD_GUI);
     gui_add_view_port(gui, viewport, GuiLayerFullscreen);
 
     // Main event loop
-    while (true)
-    {
+    while(true) {
         // Check the queue for events
         FuriStatus status = furi_message_queue_get(event_queue, &input_event, FuriWaitForever);
         furi_check(status == FuriStatusOk);
 
         // Exit the loop if the back button is long-pressed
-        if (input_event.type == InputTypeLong && input_event.key == InputKeyBack)
-        {
+        if(input_event.type == InputTypeLong && input_event.key == InputKeyBack) {
             break;
         }
     }
