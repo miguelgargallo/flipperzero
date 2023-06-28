@@ -1,9 +1,18 @@
+/**************************|
+| o myFlipperApps        o |
+| o by JohnDoe           o |
+| o 002 - Horizontal Move o |
+| o Version: 3.0.0b      o |
+| o Date: 06-28-2023     o |
+| o                      o |
+**************************/
+
 #include <stdio.h>
 #include <furi.h>
 #include <gui/gui.h>
 
 static int position[] = {5, 5}; // Starting position
-static char currentSymbol[] = "o"; // Changed from char to char array
+static char currentSymbol[] = "x"; // Changed from "o" to "x"
 
 static void drawGui(Canvas* canvas, void* context) {
     UNUSED(context);
@@ -22,34 +31,20 @@ static void handleInput(InputEvent* input_event, void* context) {
     int step = longPress ? 2 : 1; // Move 2 positions if long pressed, 1 otherwise
 
     switch(input_event->key) {
-    case InputKeyUp:
-        position[1] -= step;
-        break;
-    case InputKeyDown:
-        position[1] += step;
-        break;
     case InputKeyLeft:
         position[0] -= step;
         break;
     case InputKeyRight:
         position[0] += step;
         break;
-    case InputKeyOk:
-        strcpy(currentSymbol, "."); // Replace string copy instead of assignment
-        break;
-    case InputKeyBack:
-        strcpy(currentSymbol, "O"); // Replace string copy instead of assignment
-        break;
-    case InputKeyMAX:
-        // Add handling for InputKeyMAX here if necessary
+    default:
+        // Do nothing for other keys
         break;
     }
 
     // Bounds check
     if(position[0] < 0) position[0] = 0;
     if(position[0] > 126) position[0] = 126; // 128 pixels, adjust as necessary
-    if(position[1] < 0) position[1] = 0;
-    if(position[1] > 62) position[1] = 62; // 64 pixels, adjust as necessary
 
     furi_message_queue_put(event_queue, input_event, FuriWaitForever);
 }
