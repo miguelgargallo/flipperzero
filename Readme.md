@@ -4,6 +4,14 @@ es: FlipperZero | Guía de definitiva para compilar apps en FlipperZero
 
 ![Miguel Gargallo How to deploy Flipper Zero Apps](https://repository-images.githubusercontent.com/659406324/9c80b562-0837-4187-87c7-74663e6b0d1b)
 
+## Disclaimer
+
+es: Descargo de responsabilidad
+
+Use at your own risk. I am not responsible for any damage that may be caused to your device.
+
+es: Úselo bajo su propio riesgo. No soy responsable de ningún daño que pueda causar a su dispositivo.
+
 ## In this new version:
 
 es: En esta nueva versión:
@@ -15,6 +23,7 @@ Users can now longpress and shortpress with an indicator on the screen.
 es: Los usuarios ahora pueden mantener presionado y presionar brevemente con un indicador en la pantalla.
 
 - [FlipperZero | Ultimate compile guide](#flipperzero--ultimate-compile-guide)
+  - [Disclaimer](#disclaimer)
   - [In this new version:](#in-this-new-version)
     - [Installation](#installation)
     - [Create the app](#create-the-app)
