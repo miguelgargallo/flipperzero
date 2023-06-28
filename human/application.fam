@@ -1,10 +1,9 @@
 App(
-    appid="example_images",
-    name="Example: Images",
+    appid="human",
+    name="Graphics Motor Dragon",
     apptype=FlipperAppType.EXTERNAL,
-    entry_point="example_images_main",
+    entry_point="human_main",
     requires=["gui"],
     stack_size=1 * 1024,
-    fap_category="Examples",
-    fap_icon_assets="images",
+    fap_category="Games",
 )
