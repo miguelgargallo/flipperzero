@@ -65,9 +65,9 @@ es: Ejecuta `./fbt`.
 
 ### Create the app
 
-Then you will see this log on console log from the [log](./other/01.log)
+Then you will see this log on console log from the [log](./assets/01.log)
 
-es: Luego verás este registro en el registro de la consola desde el [log](./other/01.log).
+es: Luego verás este registro en el registro de la consola desde el [log](./assets/01.log).
 
 We put the code inside the folder applications_user/my_first_app.
 
@@ -77,10 +77,10 @@ es: Ponemos el código dentro de la carpeta applications_user/mi_primera_app.
 
 Inside my_first_app we add 2 files:
 
-es: Dentro de mi_primera_app agregamos 2 archivos:
+es: Dentro de mi primera app "button" agregamos 2 archivos:
 
-- [my_first_app.c](./my_first_app/my_first_app.c)
-- [application.fam](./my_first_app/application.fam)
+- [button.c](./applications_user/button.c)
+- [application.fam](./applications_user/application.fam)
 
 ### Compile
 
@@ -92,9 +92,9 @@ es: Ahora podemos compilar la aplicación:
 ./fbt fap_dist
 ```
 
-Then you will see this log on console log from the [log](./other/02.log)
+Then you will see this log on console log from the [log](./assets/02.log)
 
-es: Luego verás este registro en el registro de la consola desde el [log](./other/02.log).
+es: Luego verás este registro en el registro de la consola desde el [log](./assets/02.log).
 
 `D:/unleashed-firmware/build/latest/.extapps/my_first_app.fap` will need to drag and drop to the qFlipper.
 
@@ -156,7 +156,7 @@ Here you have the DRAGON Graphics Engine. The idea behind my developments is to 
 
 es: Aquí tenéis al DRAGON Graphics Motor. La idea que hay detrás de mis desarrollos es enfatizar a la comunidad a que programen sus apps, a partir de la inspiración de mi codigo, ya sea por forks o bien porque quieran contribuir directamente conmigo.
 
-[See the code](./dragon/dragon.c)
+[See the code](./human/human.c)
 
 ## License
 
