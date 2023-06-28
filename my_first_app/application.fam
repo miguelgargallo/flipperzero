@@ -1,9 +1,0 @@
-App(
-    appid="my_first_app",
-    name="My First App",
-    apptype=FlipperAppType.EXTERNAL,
-    entry_point="my_first_app_main",
-    requires=["gui"],
-    stack_size=1 * 1024,
-    fap_category="Examples",
-)

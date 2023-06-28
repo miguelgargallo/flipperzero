@@ -1,8 +1,8 @@
 App(
-    appid="human",
-    name="Graphics Motor Dragon",
+    appid="button",
+    name="button",
     apptype=FlipperAppType.EXTERNAL,
-    entry_point="human_main",
+    entry_point="button_main",
     requires=["gui"],
     stack_size=1 * 1024,
     fap_category="miguelgargallo",

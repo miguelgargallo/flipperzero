@@ -96,7 +96,7 @@ static void handleInput(InputEvent* input_event, void* context) {
 }
 
 // Main function of the app
-int32_t my_first_app_main(void* parameter) {
+int32_t button_main(void* parameter) {
     UNUSED(parameter);
 
     // Create an event queue and a viewport for GUI
