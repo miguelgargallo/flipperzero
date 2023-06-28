@@ -1,4 +1,6 @@
-PYLAR AI CREATIVE ML LICENSE
+# FlipperZero by [Miguel Gargallo](https://twitter.com/miguelgargallo)
+
+## PYLAR AI CREATIVE ML LICENSE
 
 [OFFICIAL REFERENCE](https://huggingface.co/spaces/superdatas/LICENSE)
 
