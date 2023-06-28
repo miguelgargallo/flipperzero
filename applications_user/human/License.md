@@ -1,4 +1,4 @@
-# Clicks SDK by [Miguel Gargallo](https://twitter.com/miguelgargallo)
+# DRAGON Graphics Motor by [Miguel Gargallo](https://twitter.com/miguelgargallo)
 
 ## PYLAR AI CREATIVE ML LICENSE
 
