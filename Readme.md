@@ -156,7 +156,7 @@ Here you have the DRAGON Graphics Engine. The idea behind my developments is to 
 
 es: Aquí tenéis al DRAGON Graphics Motor. La idea que hay detrás de mis desarrollos es enfatizar a la comunidad a que programen sus apps, a partir de la inspiración de mi codigo, ya sea por forks o bien porque quieran contribuir directamente conmigo.
 
-[See the code](./applications_user/human/human.c)
+[See the code](applications_user/human/human.c)
 
 ## License
 
