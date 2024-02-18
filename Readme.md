@@ -134,6 +134,10 @@ es: Y luego realizas esa acción:
 ./fbt fap_dist
 ```
 
+Now the file, at Feb 2024, I found it in
+
+`dist\f7-D\apps\user\button.fap`
+
 ## Features
 On  tap, any button it interacts, with this you can create a 🐉 dragon game or an app using this features ✨!
 
