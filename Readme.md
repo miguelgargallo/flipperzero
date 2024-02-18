@@ -65,9 +65,9 @@ es: Ejecuta `./fbt`.
 
 ### Create the app
 
-Then you will see this log on console log from the [log](./assets/01.log)
+Then you will see this log on console log from the [log](./assets/logs/01.log)
 
-es: Luego verás este registro en el registro de la consola desde el [log](./assets/01.log).
+es: Luego verás este registro en el registro de la consola desde el [log](./assets/logs/01.log).
 
 We put the code inside the folder applications_user/my_first_app.
 
@@ -79,8 +79,8 @@ Inside my_first_app we add 2 files:
 
 es: Dentro de mi primera app "button" agregamos 2 archivos:
 
-- [button.c](./applications_user/button.c)
-- [application.fam](./applications_user/application.fam)
+- [button.c](./applications_user/button/button.c)
+- [application.fam](./applications_user/button/application.fam)
 
 ### Compile
 
@@ -92,9 +92,9 @@ es: Ahora podemos compilar la aplicación:
 ./fbt fap_dist
 ```
 
-Then you will see this log on console log from the [log](./assets/02.log)
+Then you will see this log on console log from the [log](./assets/logs/02.log)
 
-es: Luego verás este registro en el registro de la consola desde el [log](./assets/02.log).
+es: Luego verás este registro en el registro de la consola desde el [log](./assets/logs/02.log).
 
 `D:/unleashed-firmware/build/latest/.extapps/my_first_app.fap` will need to drag and drop to the qFlipper.
 
