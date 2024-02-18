@@ -96,6 +96,8 @@ Then you will see this log on console log from the [log](./assets/logs/02.log)
 
 es: Luego verás este registro en el registro de la consola desde el [log](./assets/logs/02.log).
 
+If you don't see `latest` it's because `latest -> ./unleashed-firmware/build/f7-firmware-D`
+
 `D:/unleashed-firmware/build/latest/.extapps/my_first_app.fap` will need to drag and drop to the qFlipper.
 
 ![my_first_app on FlipperZero device drag and drop to qFlipper on Windows](https://github.com/miguelgargallo/flipperzero/assets/5947268/edeef69d-c199-44b8-95bb-6ec34da50cf8)
